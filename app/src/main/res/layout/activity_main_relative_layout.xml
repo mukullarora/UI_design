@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:padding="8dp"
+        android:text="Ironman"
+        android:textColor="#0d47a1"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/txtSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:padding="11dp"
+        android:text="I am smart boy"
+        android:layout_below="@id/Header"
+        android:textColor="#d84215"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/txtSubHeader"
+        android:src="@drawable/tony_stark_new" />
+
+    <EditText
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your mobile number here"
+        android:layout_below="@id/imgTonyStark"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/txtLayoutSubHeader"
+        android:hint="Enter your name here"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCLickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#009"
+        android:text="meet tony stark"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>
